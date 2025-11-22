@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="ca">
 	<head>
-		<title>Planificador horario</title>
+		<title>MyPlanner</title>
 			<link rel="stylesheet" href="styles.css">
 			<meta charset="UTF-8">
 			<meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -11,79 +11,277 @@
 			<nav>
 				<ul>
 					<li><img src="Img/logo.png"></li>
-					<li></li>
+					<li class="nombre-web">MyPlanner</li>
 					<li>Página 1</li>
 					<li>Página 2</li>
 					<li>Página 3</li>
 				</ul>
 			</nav>
-
-			<section>
-				<h1>PLANIFICA TU HORARIO</h1>
-				<p></p>
-			</section>
 		</header>
 
-		<section>
-			<h2>Tareas que realizar</h2>
-			<ul>
-				<li>
-					<h5>1. Título</h5>
-					<p></p>
-				</li>
-				<li>
-					<h5>2. Título</h5>
-					<p></p>
-				</li>
-				<li>
-					<h5>3. Título</h5>
-					<p></p>
-				</li>
-				<li>
-					<h5>4. Título</h5>
-					<p></p>
-				</li>
-				<li>
-					<h5>5. Título</h5>
-					<p></p>
-				</li>
-			</ul>
-
-			<ul>
-				<li>
-					<h5>1. Título</h5>
-					<p></p>
-				</li>
-				<li>
-					<h5>2. Título</h5>
-					<p></p>
-				</li>
-				<li>
-					<h5>3. Título</h5>
-					<p></p>
-				</li>
-				<li>
-					<h5>4. Título</h5>
-					<p></p>
-				</li>
-				<li>
-					<h5>5. Título</h5>
-					<p></p>
-				</li>
-			</ul>
+		<section class="titulo">
+			<h1>PLANIFICA TU HORARIO</h1>
+			<h2>Haz que tus días de estudio sean más fáciles y productivos.</h2>
 		</section>
 
-		<aside>
-			<h2>Rutinas a seguir</h2>
-			
+		<section class="tareas-realizar">
+			<h3>Tareas que realizar</h3>
+			<ul class="pendiente">
+				<li><h5>PENDIENTE</h5></li>
+				<li>
+					<h5>1. Título</h5>
+					<p>
+						Texto para lo que quieras ampliar.
+					</p>
+				</li>
+				<li>
+					<h5>2. Título</h5>
+					<p>
+						Texto para lo que quieras sumar al punto principal. Da detalles, explicaciones y contexto.
+					</p>
+				</li>
+				<li>
+					<h5>3. Título</h5>
+					<p>
+						Texto para lo que quieras sumar al punto principal. Da detalles, explicaciones y contexto.
+					</p>
+				</li>
+				<li>
+					<h5>4. Título</h5>
+					<p>
+						Texto para lo que quieras sumar al punto principal. Da detalles, explicaciones y contexto.
+					</p>
+				</li>
+				<li>
+					<h5>5. Título</h5>
+					<p>
+						Texto para lo que quieras sumar al punto principal. Da detalles, explicaciones y contexto.
+					</p>
+				</li>
+			</ul>
+			<button>Hecho</button>
+
+			<ul class="urgente">
+				<li><h5>URGENTE</h5></li>
+				<li>
+					<h5>1. Título</h5>
+					<p>
+						Texto para lo que quieras ampliar.
+					</p>
+				</li>
+				<li>
+					<h5>2. Título</h5>
+					<p>
+						Texto para lo que quieras sumar al punto principal. Da detalles, explicaciones y contexto.
+					</p>
+				</li>
+				<li>
+					<h5>3. Título</h5>
+					<p>
+						Texto para lo que quieras sumar al punto principal. Da detalles, explicaciones y contexto.
+					</p>
+				</li>
+				<li>
+					<h5>4. Título</h5>
+					<p>
+						Texto para lo que quieras sumar al punto principal. Da detalles, explicaciones y contexto.
+					</p>
+				</li>
+				<li>
+					<h5>5. Título</h5>
+					<p>
+						Texto para lo que quieras sumar al punto principal. Da detalles, explicaciones y contexto.
+					</p>
+				</li>
+			</ul>
+			<button>No hecho</button>
+		</section>
+
+		<aside class="rutinas">
+			<h3>Rutinas a seguir</h3>
+			<section class="numero-rutina">
+				<div>
+					<h5>N1.</h5>
+					<ul>
+						<li>Nombre</li>
+						<li>Descripción</li>
+					</ul>
+					<button>acceder</button>
+				</div>
+				<ul>
+					<li>Enfocada a:</li>
+					<li>Tema</li>
+				</ul>
+			</section>
+
+			<section class="numero-rutina">
+				<div>
+					<h5>N1.</h5>
+					<ul>
+						<li>Nombre</li>
+						<li>Descripción</li>
+					</ul>
+					<button>acceder</button>
+				</div>
+				<ul>
+					<li>Enfocada a:</li>
+					<li>Tema</li>
+				</ul>
+			</section>
+
+			<section class="numero-rutina">
+				<div>
+					<h5>N1.</h5>
+					<ul>
+						<li>Nombre</li>
+						<li>Descripción</li>
+					</ul>
+					<button>acceder</button>
+				</div>
+				<ul>
+					<li>Enfocada a:</li>
+					<li>Tema</li>
+				</ul>
+			</section>
 		</aside>
 
 		<article>
-			<h2>Cómo ser más productivo</h2>
+			<h3>Cómo ser más productivo</h3>
+			<video width="560" height="315" controls>
+				<source src="video/productivo.mp4" type="video/mp4">
+			</video>
+			<a href="https://www.youtube.com/watch?v=XYAl2Ejj6cs" target="_self"><u>Cómo ser Más Productivo (productividad para mejorar Tu Salud) | Dr. La Rosa</u></a>
 		</article>
 
+		<section>
+			<h3>Valoraciones y comentarios</h3>
+			<table class="tabla-comentarios">
+				<tr>
+					<td>Cassidi</td>
+					<td>Usuario</td>
+					<td>"Lorem ipsum dolor sit, amet..."</td>
+				</tr>
+				<tr>
+					<td>John</td>
+					<td>Usuario</td>
+					<td>"Lorem ipsum dolor sit, amet..."</td>
+				</tr>
+				<tr>
+					<td>Matty</td>
+					<td>Usuario</td>
+					<td>"Lorem ipsum dolor sit, amet..."</td>
+				</tr>
+				<tr>
+					<td>Eleanor</td>
+					<td>Usuario</td>
+					<td>"Lorem ipsum dolor sit, amet..."</td>
+				</tr>
+				<tr>
+					<td>Joseph</td>
+					<td>Usuario</td>
+					<td>"Lorem ipsum dolor sit, amet..."</td>
+				</tr>
+			</table>
+		</section>
+		<section class="valoraciones">
+			<div>
+				<p>"Un elogio magnífico"</p>
+				<div class="rating rating-4">
+					<span>&#9733;</span>
+					<span>&#9733;</span>
+					<span>&#9733;</span>
+					<span>&#9733;</span>
+					<span>&#9734;</span>
+				</div>
+				<img src="Img/usuario.png">
+				<ul>
+					<li>Nombre</li>
+					<li>Descripción</li>
+				</ul>
+			</div>
+			<div>
+				<p>"Un elogio no tan magnífico"</p>
+				<div class="rating rating-3">
+					<span>&#9733;</span>
+					<span>&#9733;</span>
+					<span>&#9733;</span>
+					<span>&#9734;</span>
+					<span>&#9734;</span>
+				</div>
+				<img src="Img/usuario.png">
+				<ul>
+					<li>Nombre</li>
+					<li>Descripción</li>
+				</ul>
+			</div>
+			<div>
+				<p>"Un elogio magnífico"</p>
+				<div class="rating rating-5">
+					<span>&#9733;</span>
+					<span>&#9733;</span>
+					<span>&#9733;</span>
+					<span>&#9733;</span>
+					<span>&#9733;</span>
+				</div>
+				<img src="Img/usuario.png">
+				<ul>
+					<li>Nombre</li>
+					<li>Descripción</li>
+				</ul>
+			</div>
+		</section>
+
+		<section class="autor">
+			<h3>ABOUT THE AUTOR</h3>
+			<section>
+				<h4>Contartarme</h4>
+				<form action="submit.php" method="POST">
+					<label for="nombre">Nombre</label>
+					<input type="text" id="nombre" name="nombre" pattern="\d{3}" placeholder="Jane">
+
+					<label for="apellido">Apellido</label>
+					<input type="text" id="apellido" name="apellido" placeholder="Smitherton">
+
+					<label for="email">Correo electrónico</label>
+					<input type="email" id="email" name="email" required placeholder="correoelectrónico@dominioficticiodejane.net">
+
+					<label for="mensaje">Tu mensaje</label>
+					<textarea type="text" id="mensaje" name="mensaje" placeholder="Escribe tu pregunta o mensaje" oninvalid="this.setCustomValidity('Por favor, introduzca una idrección de correo electrónico válido')"></textarea>
+
+					<button type="submit">Enviar</button>
+				</form>
+			</section>
+			<img src="Img/autor.png">
+		</section>
+
 		<footer>
-			
+			<p class="nombre-web">MyPlanner</p>
+			<ul>
+				<li><img src="Img/logoFacebook.png"></li>
+				<li><img src="Img/logoLinkedin.png"></li>
+				<li><img src="Img/logoYoutube.png"></li>
+				<li><img src="Img/logoInstagram.png"></li>
+			</ul>
+
+			<ul class="tema-pie-pag">
+				<li>Tema</li>
+				<li>Página</li>
+				<li>Página</li>
+				<li>Página</li>
+			</ul>
+			<ul class="tema-pie-pag">
+				<li>Tema</li>
+				<li>Página</li>
+				<li>Página</li>
+				<li>Página</li>
+			</ul>
+			<ul class="tema-pie-pag">
+				<li>Tema</li>
+				<li>Página</li>
+				<li>Página</li>
+				<li>Página</li>
+			</ul>
+
 		</footer>
 	</body>
 </html>
