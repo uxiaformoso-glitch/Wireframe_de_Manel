@@ -2,12 +2,17 @@ body {
 	margin: 0;
 	padding: 0;
 	font-family: "Monaco", monospace;
+	width: fit-content;
+}
+
+a {
+	text-decoration: none;
+	color: inherit;
 }
 
 h1 {
 	margin: 0;
-	padding: 0 0 10px 50px;
-	width: 100%;
+	padding: 0 0 10px 50px;	
 	font-size: 50px;
 	border-style: solid none solid none;
 	border-width: 4px;
@@ -17,7 +22,6 @@ h1 {
 h2 {
 	margin: 0;
 	padding: 0 0 25px 50px;
-	width: 100%;
 	font-size: 35px;
 	font-weight: normal;
 	color: darkslategrey;
@@ -26,26 +30,33 @@ h2 {
 }
 
 h3 {
-	font-size: 25px;
+	font-size: 30px;
 }
 
 h4 {
-	font-size: 20px;
+	font-size: 25px;
 }
 
 h5 {
-	font-size: 15px;
+	font-size: 20px;
 }
 
 p {
-	line-height: 0.7;
-	font-size: 12px;
+	line-height: 1.0;
+	font-size: 15px;
 }
 
 ul {
 	list-style: none;
 	padding: 0px;
 	margin: 0;
+}
+
+button {
+	font-size: 15px;
+	color: white;
+	border: 0px;
+	border-radius: 3px;
 }
 
 header {
@@ -80,6 +91,7 @@ nav {
 .titulo {
 	background-color: lightgrey;
 	height: 220px;
+	overflow: hidden;
 }
 
 .titulo div {
@@ -88,6 +100,114 @@ nav {
 	border-color: grey;
 }
 
+.tareas-realizar {
+	margin: 35px 50px 35px 50px;
+}
+
+.tareas-realizar div {
+	margin: 0;
+	paddind: 0;
+	display:flex;
+	justify-content: space-between;
+}
+
+.seccion-pendiente-urgente {
+	width: 25%;
+	display:flex;
+	flex-direction: column;
+}
+
+.titulo-de-tareas {
+	text-align: center;
+}
+
+.boton-hecho {
+	margin: 25px 50px 0 50px;
+	padding: 8px 15px 8px 15px;
+	background-color: limegreen;
+
+}
+
+.boton-no-hecho {
+	margin: 25px 50px 0 50px;
+	padding: 8px 15px 8px 15px;
+	background-color: darkred;
+}
+
+.boton-acceder {
+	
+	padding: 8px 15px 8px 15px;
+	background-color: black;
+}
+
+.rutinas {
+	width: 18%;
+	displya:flex;
+	flex-direction: column;
+}
+
+.numero-rutina {
+	margin-bottom: 45px;
+}
+
+.recuadro {
+	padding: 0 0 10px 5px;
+	display: flex;
+	flex-direction: column;
+	border-style: solid;
+	border-width: 1px;
+	border-color: lightgrey;
+	border-radius: 10px;
+}
+
+.recuadro h5 {
+	padding-left: 10px;
+}
+
+.recuadro div {
+	padding: 0 0 25px 10px;
+	display:flex;
+	height: 50px;
+	align-items: center;
+}
+
+.enfoque-tema {
+	font-size: 14px;
+	margin-top: 5px;
+	text-align: center;
+}
+
+article {
+	padding: 0 50px 0 50px;
+	display: flex;
+	flex-direction: column;
+}
+
+video {
+	max-width: 100%;
+	height: auto;
+
+}
+
+article a {
+	margin-top: 10px;
+	font-size: 20px;
+	text-align: center;
+}
+
 footer {
 	
+}
+
+.logo-redes {
+	height: 20px;
+}
+
+
+@media (min-width: 600px) {
+
+}
+
+@media (min-width: 992px){
+
 }
