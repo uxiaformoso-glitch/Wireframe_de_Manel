@@ -1,29 +1,41 @@
 body {
-	
+	margin: 0;
+	padding: 0;
+	font-family: "Monaco", monospace;
 }
 
 h1 {
+	font-size: 50px;
 	
 }
 
 h2 {
-	
+	font-size: 35px;
+	font-weight: normal;
+	color: darkslategrey;
 }
 
 h3 {
-	
+	font-size: 25px;
 }
 
 h4 {
-	
+	font-size: 20px;
 }
 
 h5 {
-	
+	font-size: 15px;
 }
 
-h6 {
-	
+p {
+	line-height: 0.7;
+	font-size: 12px;
+}
+
+ul {
+	list-style: none;
+	padding: 0px;
+	margin: 0;
 }
 
 header {
