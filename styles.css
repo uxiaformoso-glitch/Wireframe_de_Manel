@@ -6,7 +6,6 @@ body {
 
 h1 {
 	font-size: 50px;
-	
 }
 
 h2 {
@@ -39,7 +38,32 @@ ul {
 }
 
 header {
-	
+	background-color: red;
+	height: 90px;
+	position: sticky;
+	top: 0;
+}
+
+nav {
+	padding: 35px 50px 35px 50px;
+	display: flex;
+	height: 20px;
+	align-items: center;
+}
+
+.logo-web {
+	height: 50px;
+	padding-right: 65px;
+}
+
+.navegador-header {
+	display: flex;
+	width: 100%;
+	justify-content: flex-end;
+}
+
+.navegador-header li {
+	margin-left: 40px;
 }
 
 footer {
